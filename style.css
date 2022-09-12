@@ -7,6 +7,25 @@ body{
     margin: 0;
 }
 
+
+ .flex-container {
+     display: flex;
+     background-color: DodgerBlue;
+ }
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 17vh auto 0 auto;
+    position: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.rood{color:red;}
+
+.blauw{color: blue;}
+
+.groen{color: green;}
+
 form{
     max-width: 550px;
     width: 90%;
