@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay">
+        <form>
+            <h1>Connect.</h1>
+
+            <div id="name_wrapper">
+            <label for="name">Name</label>
+
+                <input type="text" id="firstname" placeholder="First">
+                <input type="text" id="lastname" placeholder="Last">
+
+            </div>
+        
+            <div id="email_wrapper">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email">
+
+            </div>
+
+            <div id="number_wrapper">
+                <label for="number">Number</label>
+                <input type="text" id="number" placeholder="Number">
+
+            </div>
+            <div id="select_wrapper">
+                <div class="select">
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                        <option value="general">General</option>
+                        <option value="volunteer">Volunteer</option>
+                        <option value="partnership">Partnership</option>
+                        <option value="project">Project</option>
+                        <option value="sponsor">Sponsor</option>
+                        <option value="other">Other</option>
+                    </select>
+
+
+
+                </div>            
+
+
+            </div>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Message" rows="6"></textarea>
+            <small class="error"></small>
+
+            <div class="center"> 
+             <input type="submit" value="Send Message">
+             <p id="succes"></p>
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
